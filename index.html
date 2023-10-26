@@ -1,13 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+
     <title>Shoes & Shout</title>
+    <link rel="stylesheet" href="style.css"> <!-- Sertakan file CSS Anda di sini -->
 </head>
+
 <body>
-    
-    <script src="script.js"></script>
+    <!-- HEADER SECTION -->
+    <header>
+        <!-- Navbar -->
+        <nav>
+            <a id="logo-link" href="#">
+                <img src="assets/logo.png" alt="Shoes & Shout Logo">
+            </a>
+            <div id="model-bar">
+                <button id="boots-filter" class="model-filter">Boots</button>
+                <!-- <button class="model-filter">Boots</button> -->
+                <button id="sneakers-filter" class="model-filter">Sneakers</button>
+                <!-- <button class="model-filter">Sneakers</button> -->
+                <!-- <button class="model-filter">Loafers</button> -->
+                <button id="loafers-filter" class="model-filter">Loafers</button>
+                <!-- <button class="model-filter">Sandals</button> -->
+                <button id="sandals-filter" class="model-filter">Sandals</button>
+                <!-- Tambahkan filter lainnya di sini -->
+            </div>
+            <div id="cart-button">
+                <button id="cart">Cart<span id="cart-item-count" style="margin-left: 10px;">0</span></button>
+            </div>
+        </nav>
+        <!-- Model Bar -->
+
+    </header>
+
+    <!-- MAIN CONTENT SECTION -->
+    <main>
+        <!-- Products Card -->
+        <div class="container-card" id="kartu-kontainer">
+            <!-- divider dengan class product-card dibuat otomatis oleh script -->
+        </div>
+
+        <!-- Checkout Page -->
+        <div class="form-container">
+            <div id="checkout-page" style="display: none;">
+                <!-- style="display: none;" -->
+                <div id="product-list">
+                    <!-- Daftar produk yang ada di Cart -->
+                </div>
+
+                    <form id="order-form">
+                        <label for="name">Nama Pemesan</label>
+                        <input type="text" id="name" name="name">
+                        <label for="address">Alamat Pemesan</label>
+                        <textarea id="address" name="address"></textarea>
+                        <label for="payment-method">Pilih Payment Method</label>
+                        <select id="payment-method" name="payment-method">
+                            <option value="Cash on delivery">Cash on delivery</option>
+                            <option value="Mobile banking">Mobile banking</option>
+                            <option value="Cash By Duel">Cash By Duel</option>
+                            <!-- Tambahkan metode pembayaran lainnya di sini -->
+                        </select>
+                        <label for="delivery-method">Pilih Delivery Method</label>
+                        <select id="delivery-method" name="delivery-method">
+                            <option value="J&T Reguler">J&T Reguler</option>
+                            <option value="JNE Express"> JNE Express</option>
+                            <!-- Tambahkan metode pengiriman lainnya di sini -->
+                        </select>
+                        <div class="container-button">
+                            <button id="checkout">Checkout</button>
+                            <button id="cancel">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </main>
+
+    <script src="script.js"></script> <!-- Sertakan file JavaScript di sini -->
 </body>
+
 </html>
+
+<br>
