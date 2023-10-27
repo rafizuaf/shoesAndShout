@@ -30,11 +30,9 @@ nav a img {
 #cart-button {
     display: flex;
     align-items: center;
-    /* border: solid black; */
 }
 
 #cart-button button:hover {
-    /* opacity: 50%; */
     background-color: #fff;
     color:#ff5733;
 }
@@ -109,7 +107,6 @@ nav a img {
     display: inline-block;
     width: 300px;
     border-radius: 10px;
-    /* border: #ff5733 5px solid; */
 }
 
 .product-card img {
@@ -159,7 +156,6 @@ nav a img {
     padding: 10px;
     text-align: center;
     border-radius: 10px;
-    /* border: solid red; */
     width: 100%;
     justify-content: center;
     justify-items: center;
@@ -174,8 +170,6 @@ nav a img {
     display: flex;
     justify-items: center;
     align-items: center;
-    /* border: solid orange; */
-    /* padding-right: 50px; */
 }
 
 #product-details h2 {
@@ -193,7 +187,6 @@ nav a img {
 }
 
 .image-detail {
-    /* border:  solid blue; */
     width: 50%;
     display: flex;
     align-items: center;
@@ -205,7 +198,6 @@ nav a img {
 .description {
     width: 50%;
     text-align: left;
-    /* border: solid yellow; */
 }
 
 .product-desc {
@@ -216,7 +208,6 @@ nav a img {
 .form-container {
     display: flex;
     justify-content: center;
-    /* border: solid blue; */
 }
 #checkout-page {
     background-color: #fff;
@@ -226,7 +217,6 @@ nav a img {
     width: 50%;
     display: flex;
     justify-self: center;
-    /* border: solid red; */
 }
 
 #product-list {
@@ -275,12 +265,4 @@ nav a img {
     cursor: pointer;
     margin: 10px 10px;
     justify-content: center;
-    /* border: solid blue; */
 }
-
-/* Form styling */
-
-/* #name {
-    f
-    width: 400px;
-} */

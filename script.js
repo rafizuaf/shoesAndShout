@@ -21,7 +21,7 @@ const dataBase = [
         img: 'https://media.gq-magazine.co.uk/photos/651fcb62a238e39e745a9ee5/master/w_1600,c_limit/Candy%201.jpg',
         model: 'Sneakers',
         size: 45,
-        description: 'asgdhfdjgfkglj'
+        description: 'Take a ride on the wild side in the Nike SB Dunk High "Sweet Tooth". A triptych of Halloween colours delivers sensory overload, and mischievous graphics pair perfectly with all your big tricks. Weave a spooky web with the four sets of candy corn-coloured laces, or just use them to personalise your costume.'
     },
     {
         id: 2,
@@ -32,7 +32,7 @@ const dataBase = [
         img: 'https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2023%2F09%2Fair-jordan-12-cherry-ct8013-116-release-date-01.jpg?cbr=1&q=90',
         model: 'Sneakers',
         size: 45,
-        description: 'asdg'
+        description: 'Embracing its roots, with flashy red accents, pebbled leather-constructed mudguards, matching midsoles, and shiny silver hardware paired with pristine white, quilted uppers, delivering a style thats both nostalgic and fresh'
     },
     {
         id: 3,
@@ -43,7 +43,7 @@ const dataBase = [
         img: 'https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2023%2F06%2Fair-jordan-1-royal-reimagined-dz5485-042-release-1.jpg?cbr=1&q=90',
         model: 'Sneakers',
         size: 45,
-        description: 'asdghfgj'
+        description: 'The Air Jordan 1 Retro High remakes the classic sneaker, giving you a fresh look with a familiar feel.'
     },
     {
         id: 4,
@@ -54,7 +54,7 @@ const dataBase = [
         img: 'https://images.timberland.com/is/image/timberland/10061713-HERO?wid=650&hei=650&qlt=50&resMode=sharp2&op_usm=0.9,1.0,8,0',
         model: 'Boots',
         size: 45,
-        description: 'asdhgfj'
+        description: 'Inspired by our original waterproof boot, this all-season style gives you tireless waterproof performance and instantly recognizable work-boot styling. Other essential features include 400 grams of warm, down-free PrimaLoft® insulation, a padded collar for a comfortable fit around the ankle, and a rubber lug outsole for traction.'
     },
     {
         id: 5,
@@ -65,7 +65,7 @@ const dataBase = [
         img: 'https://s3.bukalapak.com/img/37777066003/s-463-463/data.jpeg.webp',
         model: 'Sandals',
         size: 45,
-        description: 'asdghfg'
+        description: 'WACKO MARIA is known for its tiger-inspired prints and has once again called upon good friend and tattoo artist Tim Lehi to work up the patterns found on the shirts. Other pieces are seen with Edo Moji calligraphy done by famed calligrapher Unokichi Tachibana'
     },
     {
         id: 6,
@@ -76,7 +76,7 @@ const dataBase = [
         img: 'https://down-id.img.susercontent.com/file/sg-11134201-22120-n77d80zcgmlvaa',
         model: 'Loafers',
         size: 45,
-        description: 'asfgdhfgk'
+        description: 'Get your Semi formal loafers by Aldo here'
     },
     {
         id: 7,
@@ -87,7 +87,7 @@ const dataBase = [
         img: 'https://dynamic.zacdn.com/9GSRVGOBf63B1V-W2FEDYYI1fe8=/filters:quality(70):format(webp)/https://static-id.zacdn.com/p/dr-martens-9511-3992451-1.jpg',
         model: 'Boots',
         size: 45,
-        description: 'asgdhgmfh'
+        description: 'Dr. Martens most famous and instantly recognisable silhouette, the 1460 is the Original Dr. Martens boot. First made by us in 1960, and made iconic by our wearers in the decades since: the 1460 boot is built to last.'
     },
     {
         id: 8,
@@ -98,7 +98,7 @@ const dataBase = [
         img: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRWr_CZuhZwkRmCLS70156xQyAMk2jHiCm3rXvpv6GzcTN9kwzq',
         model: 'Sandals',
         size: 45,
-        description: 'asfgdhfj'
+        description: 'The Outpost Sandal is made for warmer adventures, when you trade your puffer jacket for a breathable tee but still want your footwear to be ready for anything. With a tough Cordura upper, a cushioned EVA midsole, and a Vibram XS Trek outsole, you can step into these sandals and walk out the door with the comfort of sneakers, the simplicity of slip-ons, and plenty of technical ability all in one package. '
     },
     {
         id: 9,
@@ -109,7 +109,7 @@ const dataBase = [
         img: 'https://media.gq-magazine.co.uk/photos/63e39961a1432ddc0d466f6c/master/w_1600,c_limit/Screenshot%202023-02-08%20at%2012.44.52.png',
         model: 'Boots',
         size: 'Universal',
-        description: 'REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE'
+        description: 'The American art collective has unveiled its first pair of boots, which might be the maddest yet. Based on the vibrant red shoes that Astro Boy wore in the 2009 film of the same name, the TPU shell shoes are being labelled as full-on sick'
     },
     {
         id: 10,
@@ -120,7 +120,7 @@ const dataBase = [
         img: 'https://image-cdn.hypb.st/https%3A%2F%2Fid.hypebeast.com%2Ffiles%2F2023%2F09%2Freese-cooper-lanjutkan-kolaborasi-bareng-merrell-02.jpg?cbr=1&q=90',
         model: 'Sneakers',
         size: '40',
-        description: 'REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE'
+        description: 'As a slight crossover between a trail boot and a moccasin, the Moab Flight Sieve gets dipped in a “Black” and “Oyster” colorway, the latter of which features a creamy synthetic leather and mesh upper, atop a pine green FloatPro Foam™ midsole and a Vibram® EcoStep outsole.'
     },
     {
         id: 11,
